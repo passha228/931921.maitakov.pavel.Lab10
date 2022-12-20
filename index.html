@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+    <title> Frontend Task №10 </title>
+</head>
+
+<body>
+    <div id="curtain" onclick="upCurtain()"></div>
+    <img src="img/magican.jpg" id="wizzard">
+    <img src="img/hat.png" id="hat">
+    <img src="img/lamp-top.png" id="lamp-top" onmousedown="downSwitcher()" onmouseup="upSwitcher()" onclick="turnLight()">
+    <img src="img/lamp-leg.png" id="lamp-leg" onmousedown="downSwitcher()" onmouseup="upSwitcher()" onclick="turnLight()">
+    <img src="img/lamp-switcher.png" id="lamp-switcher">
+    <div id="light" class="lightoff"></div>
+    <img src="img/rabbit.png" id="rabbit" onclick="changeAnimal('pigeon', 'rabbit')">
+    <img src="img/pigeon.png" id="pigeon" onclick="changeAnimal('rabbit', 'pigeon')">
+</body>
+
+<script src="script.js"></script>
+</html>
